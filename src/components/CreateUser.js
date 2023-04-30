@@ -16,7 +16,7 @@ export default class CreateUser extends Component {
   }
 
   getUsers = async() =>{
-    const res = await axios.get('hhttps://mern-stack-carlo-be.onrender.com/api/users');
+    const res = await axios.get('https://mern-stack-carlo-be.onrender.com/api/users');
     this.setState({users: res.data});
   }
 
